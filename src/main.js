@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import App from './AppLesson1.vue'
+import App from './AppLesson2.vue'
 import BaseIcon from './components/BaseIcon.vue'
 import './assets/main.css'
 
