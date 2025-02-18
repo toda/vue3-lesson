@@ -6,6 +6,8 @@ const { title } = defineProps({
     default: 'reset',
   },
 })
+const emit = defineEmits(['reset'])
+console.log(emit)
 </script>
 <template>
   <button @click="$emit('reset', 100)">{{ title }}</button>
